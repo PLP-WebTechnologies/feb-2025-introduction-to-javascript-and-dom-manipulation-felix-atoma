@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS & DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="main-title">Welcome to DOM Manipulation</h1>
+  </header>
+
+  <main>
+    <section>
+      <p id="intro-text">Click the button to change this text and style!</p>
+      <button onclick="changeContent()">Change Text & Style</button>
+    </section>
+
+    <section>
+      <button onclick="addElement()">Add New Element</button>
+      <button onclick="removeElement()">Remove Element</button>
+      <div id="dynamic-area"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Felix Atoma</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
